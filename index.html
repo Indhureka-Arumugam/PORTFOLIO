@@ -3,62 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indhu's website</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-
-
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <a href="#About me"><i class="fa-sharp fa-solid fa-circle-user"></i>About</a>
-            <a href="#Skills"> Skill</a>
-            <a href="project">Project</a>
-            <a href="contact">Contact</a>
-        </nav>
-        <br>
-    </header>
-        <section>
-        <img src="professional.jpg" alt="picture" width="10px" height="50" title="Indhu">
-        <figcaption></figcaption>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum obcaecati laudantium repellat cum voluptatibus voluptatem, in quidem, porro, delectus explicabo. Quod similique ducimus odio porro nihil quibusdam perspiciatis dicta repellat alias itaque ex ipsa error, modi possimus asperiores eligendi minima dolorum odit voluptatem, ad molestiae temporibus. Commodi, vero recusandae?</p>
-    </section>
-        <form action="" method="">
-            <fieldset class="">
-            <legend>Contact Form</legend>
-            <div>
-              <label for="name"> User Name </label>
-              <input type="text" name="name" id="name" autocomplete="on" />
-            </div>
-            <br>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" >
-            </div>
-            <br>
-            <div>
-                <label for="Male">male</label>
-                <input type="radio" name="gender" id="male">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="assests/img/favicon.ico" alt="image">Intro</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      
+        <ul class="navbar-nav ms-lg-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/About.html">About me <i class="fa-solid fa-circle-user"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/skill.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/project.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="col-12">
+        <img src="https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg"alt="image">
+        <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora maxime cum ullam quod aut libero debitis praesentium laudantium doloremque vero officiis impedit repellendus architecto at ipsa molestias aspernatur, nam nostrum quis ducimus facilis deleniti numquam. Deleniti temporibus tempore saepe, voluptatum amet animi officiis, est itaque mollitia alias velit explicabo eaque?</p>
+</div>
+     <div class="col-12"></div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, culpa reiciendis aliquid, quod veritatis incidunt debitis deserunt rerum temporibus a nihil velit tempore numquam assumenda.</p>
+     
+</div>
+ <div class="container">
+    <div class="row">
+      <div class="col About">About me</div>
+      <div class="col skill">Skills</div>
+      <div class="w-100" class=""></div>
+      <div class="col contacts">Contacts</div>
+      <div class="col projects">Projects</div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <footer class="footerpath" style="background-color: blanchedalmond;">
+    <div class="container">
+        <div class="row">
+            <div class="col-4-col-sm-12" style="background-color: rgb(30, 25, 118);"></div>
+            <ul style="list-style: none;">
+                <li>Salem</li>
+                <li> 12345678</li>
+                <li> @gmail.com</li>
+            </ul>
+        </div>
+        <div class="col-4-col-sm-12" style="background-color:yellow" >
+             <p>devloper</p>
+        </div>
+        <div class="col-4-col-sm-12">
+            <i class="fa-brands fa-github"></i>github
+            <p>Icons</p>
+        </div>
 
-                <label for="Female">Female</label>
-                <input type="radio" name="gender" id="female">
-            </div>
-            <div>
-                <label for="Select skills">Select skills</label>
-            </div>
-            <div>
-                <label><input type="checkbox">Java</label><br>
-                <label><input type="checkbox">Python</label><br>
-                <label><input type="checkbox">Html</label><br>
-                <label><input type="checkbox">c</label>
-            </div>
-        </fieldset>  
-    </form>
-    <footer class="footer">
-        <address>RPSIT,POOSARIPATTY,SALEM</address>
-    </footer>
-    
-    
+    </div>
+</footer>
+    <!--<div class="row">
+        <div class="col-sm-6" col-12></div>
+        <div class=""col-12></div>'-->
+       
 </body>
+<style>
+    *{
+    margin:0%;
+    padding:0%;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    }
+/* .About{
+    width: auto;
+    height: 400px;
+    background-color: aqua;
+    }
+    .skill{
+    width: auto;
+     height: 400px;
+     background-color:rgb(153, 94, 209);
+     }
+    .contacts{
+    width: auto;
+    height: 400px;
+    background-color: rgb(182, 83, 173);
+     }
+    .projects{
+    width: auto;
+    height: 400px;
+     background-color: rgb(80, 168, 53);
+     }
+      */
+</style>
+
 </html>

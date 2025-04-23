@@ -1,0 +1,20 @@
+.About{
+    width: auto;
+    height: 400px;
+    background-color: aqua;
+    }
+    .skill{
+    width: auto;
+     height: 400px;
+     background-color:rgb(153, 94, 209);
+     }
+    .contacts{
+    width: auto;
+    height: 400px;
+    background-color: rgb(182, 83, 173);
+     }
+    .projects{
+    width: auto;
+    height: 400px;
+     background-color: rgb(80, 168, 53);
+     }
